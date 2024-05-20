@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+  .nav-1 {
+    display: none;
+  }
+  .nav-2 {
+    background-color: black;
+    height: 35vh;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* position: absolute; */
+  }
+  .sub-section-1 {
+    padding-top: 10%;
+  }
+  .nav-2-first-part {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .nav-2-first-part-2 {
+    display: flex;
+    /* gap: 25px; */
+    flex-direction: column;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    button {
+      background-color: #fe5f55;
+      padding: 0.8rem 1rem;
+    }
+  }
+  .hamburger{
+    display: block;
+  }
+}
