@@ -264,30 +264,45 @@
     height: 100vh;
     background-color: #f8f9fa;
     display: flex;
+
+}
+.container-3-our-services{
+    display: flex;
+    flex-direction: column;
+height: 4rem;
+width: 15rem;
+    background-color: gray;
 }
 .inside-container-3{
     width: 80%;
+    background-color: green;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .container-3-part-1{
-/* display: grid;
+display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(2,1fr);
-place-items: center; */
-display: flex;
+place-items: center;
+row-gap: 1rem;
+/* display: flex;
 justify-content: center;
-align-items: center;
+align-items: center; */
 height: 100%;
-width: 50%;
+width: 55%;
+background-color: red;
 
 }
 .container-3-card{
-    width: 15.2rem;
+    width: 17.2rem;
     height: 18.3rem;
     display: flex;
     gap:2rem;
   
     padding: 1rem;
+    background-color: yellow;
     
 }
 .container-3-icon{
@@ -306,6 +321,10 @@ width: 50%;
 }
 .container-3-data{
     width: 50%;
+    h3{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
 p{
     font-size: 1.1rem;
         padding-top: 7%;
@@ -317,7 +336,251 @@ p{
 
 
 .container-3-part-2{
-    height: 100%;
     background-color: white;
     width: 40%;
+}
+
+.containe-3-part-2-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    h6{
+       color: #207dff;
+       font-weight: 600;
+       letter-spacing: 3px;
+    }
+}
+
+/* ==============================================using Bootstrap from here======================================================= */
+
+.g-3{
+    display: flex;
+    flex-direction: column;
+}
+.col input{
+    height: 3rem;
+    border-radius: 1rem;
+    width: 70%;
+    /* margin:auto */
+}
+.form-control{
+    height: 3rem;
+    border-radius: 1rem;
+    /* margin:auto */
+}
+
+.form-select{
+    max-width: 67% !important;
+    height: 3rem;
+    border-radius: 1rem !important;
+   
+    margin: 2rem auto 0px auto !important;
+}
+.form-control{
+    width: 70% !important;
+    height: 3rem;
+    border-radius: 1rem !important;
+   
+    margin: 17px auto 0px auto;
+   
+}
+.form-control-last{
+    width: 70% !important;
+    height: 3rem;
+    border-radius: 1rem !important;
+   
+    margin: 1rem auto 0px auto !important;
+}
+
+.btn-outline-danger{
+    height: 3rem !important;
+    max-width: 70% !important;
+    margin: auto;
+    border-radius: 1rem !important;
+    background-color: #fe5f55;
+}
+
+/* =========================================================section 4 Start from here========================================= */
+
+.container-4{
+    height: 31rem;
+    background-color: rebeccapurple;
+    background-image: url(/section-4.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.inside-container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+   
+    margin: auto;
+   padding-top:15% ;
+   text-align: center;
+   h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+   }
+   p{
+    color: white;
+    opacity: 0.9;
+    margin-top: 2rem;
+   }
+   button{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    &:hover{
+        background-color: white;
+    }
+   }
+   
+}
+
+
+
+/* =========================================================section 5 Start from here========================================= */
+
+.container-5{
+ height: 110vh;
+ display: flex;
+}
+.container-5-image-area{
+    width: 30%; 
+    height: 100%;
+  
+    background-image: url(/section-5.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-5-cards-area{
+    height: 100%;
+    width: 70%;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-template-rows: repeat(3,1fr);
+ place-items: center;
+}
+.container-5-card{
+    width:22.1rem;
+    height: 16.2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    transition: background-color 0.3s ease-in-out ;
+    i{
+        font-size: 1.8rem;
+        color: #207dff;
+        
+    }
+}
+.container-5-card:hover{
+ background-color: #207dff;
+ i{
+ color: white;
+ }
+ h2{
+    color: white;
+ }
+ p{
+    color: white;
+    opacity: 0.8;
+ }
+
+}
+
+/* ===================================================section 6 start from here======================================= */
+
+
+.container-6{
+    height: 140vh;
+    /* background-color: green; */
+}
+.container-6-first-part{
+    height: 30%;
+    max-width:60% ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap:1rem;
+    padding-top: 2rem;
+    /* background-color:  yellow; */
+    h1{
+        font-weight: 800;
+    }
+    p{
+        opacity: 0.8;
+    }
+}
+
+.container-6-second-part{
+    height: 70%;
+
+    /* background-color: aqua; */
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    place-items: center;
+}
+
+.container-6-card{
+    display: flex;
+ 
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    height: 32rem;
+    /* background-color: aquamarine; */
+    text-align: center;
+    img{
+        height: 19rem;
+        width: 20rem;
+    }
+    h2{
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+
+
+    }
+    h3{
+        color: #207dff;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+}
+
+/* ==================================================7-section start from here===================================== */
+.container-7{
+    height: 80vh;
+    background-image: url(/Hero-Background.png);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.container-7::after{
+    position: absolute;
+    content: "";
+    background-color: #207dff;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
 }
